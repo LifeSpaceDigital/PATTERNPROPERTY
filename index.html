@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Life Space Digital | Premium Real Estate</title>
+    <title>Life Space Digital | Premium Properties in Doha</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         /* --- RESET & BASE STYLES --- */
@@ -20,30 +20,30 @@
             position: sticky; top: 0; z-index: 100;
         }
         .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; color: #1a2b4a; }
-        .logo span { color: #c5a059; } /* Gold accent */
+        .logo span { color: #c5a059; } /* Premium Gold Accent */
         nav ul { display: flex; gap: 30px; list-style: none; }
         nav a { font-weight: 400; transition: color 0.3s; }
         nav a:hover { color: #c5a059; }
 
         /* --- HERO SECTION --- */
         .hero {
-            height: 80vh; background: linear-gradient(rgba(26, 43, 74, 0.6), rgba(26, 43, 74, 0.6)), 
-                    url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80') center/cover;
+            height: 80vh; background: linear-gradient(rgba(26, 43, 74, 0.7), rgba(26, 43, 74, 0.5)), 
+                    url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80') center/cover;
             display: flex; flex-direction: column; justify-content: center; align-items: center; 
             text-align: center; color: white; padding: 0 20px;
         }
         .hero h1 { font-size: 3.5rem; margin-bottom: 15px; color: white; }
-        .hero p { font-size: 1.2rem; margin-bottom: 30px; max-width: 600px; opacity: 0.9; }
+        .hero p { font-size: 1.2rem; margin-bottom: 30px; max-width: 600px; opacity: 0.95; }
         
         .search-bar {
             background: white; padding: 10px; border-radius: 50px; display: flex; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2); width: 100%; max-width: 600px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2); width: 100%; max-width: 650px;
         }
         .search-bar input {
             flex: 1; border: none; padding: 15px 20px; font-size: 1rem; outline: none; border-radius: 50px;
         }
         .search-bar button {
-            background: #c5a059; color: white; border: none; padding: 15px 30px; 
+            background: #c5a059; color: white; border: none; padding: 15px 35px; 
             border-radius: 50px; font-weight: 600; cursor: pointer; transition: background 0.3s;
         }
         .search-bar button:hover { background: #b08d49; }
@@ -54,7 +54,7 @@
         .section-title p { color: #666; font-size: 1.1rem; }
 
         .properties-grid {
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
             gap: 30px; padding: 0 5% 80px; max-width: 1200px; margin: 0 auto;
         }
         .property-card {
@@ -67,8 +67,8 @@
         .property-card:hover .property-img img { transform: scale(1.05); }
         
         .property-info { padding: 25px; }
-        .property-price { font-size: 1.5rem; font-weight: 600; color: #c5a059; margin-bottom: 5px; }
-        .property-address { color: #666; margin-bottom: 15px; font-size: 0.95rem; }
+        .property-price { font-size: 1.4rem; font-weight: 600; color: #c5a059; margin-bottom: 5px; }
+        .property-address { color: #666; margin-bottom: 15px; font-size: 0.95rem; font-weight: 500; }
         .property-features { display: flex; gap: 20px; color: #888; font-size: 0.9rem; border-top: 1px solid #eee; padding-top: 15px; }
         .property-features span { display: flex; align-items: center; gap: 5px; }
 
@@ -76,15 +76,15 @@
         footer {
             background: #1a2b4a; color: white; text-align: center; padding: 40px 20px;
         }
-        footer p { opacity: 0.7; font-size: 0.9rem; }
-        footer .logo { color: white; margin-bottom: 10px; display: inline-block; }
+        footer p { opacity: 0.7; font-size: 0.9rem; margin-top: 10px; }
+        footer .logo { color: white; margin-bottom: 5px; display: inline-block; }
 
         /* --- RESPONSIVE --- */
         @media (max-width: 768px) {
-            .hero h1 { font-size: 2.5rem; }
+            .hero h1 { font-size: 2.2rem; }
             .search-bar { flex-direction: column; border-radius: 15px; }
-            .search-bar input, .search-bar button { border-radius: 10px; }
-            nav ul { gap: 15px; }
+            .search-bar input, .search-bar button { border-radius: 10px; width: 100%; margin-bottom: 10px; }
+            nav ul { gap: 15px; font-size: 0.9rem; }
         }
     </style>
 </head>
@@ -92,11 +92,11 @@
 
     <!-- HEADER -->
     <header>
-        <div class="logo">Life<span>Space</span></div>
+        <div class="logo">Life<span>Space</span> Doha</div>
         <nav>
             <ul>
                 <li><a href="#properties">Properties</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -104,66 +104,66 @@
 
     <!-- HERO SECTION -->
     <section class="hero">
-        <h1>Find Your Dream Space</h1>
-        <p>Discover premium properties curated for modern living. From luxury villas to modern city apartments.</p>
+        <h1>Discover Premium Living in Doha</h1>
+        <p>Exclusive apartments, villas, and penthouses in The Pearl, Lusail, and West Bay.</p>
         <div class="search-bar">
-            <input type="text" placeholder="Search by city, neighborhood, or ZIP...">
-            <button>Search</button>
+            <input type="text" placeholder="Search in The Pearl, Lusail, West Bay...">
+            <button>Find Property</button>
         </div>
     </section>
 
     <!-- FEATURED PROPERTIES -->
     <section id="properties">
         <div class="section-title">
-            <h2>Featured Listings</h2>
-            <p>Hand-picked properties for the discerning buyer</p>
+            <h2>Featured Listings in Qatar</h2>
+            <p>Hand-picked, high-value properties for the discerning buyer</p>
         </div>
 
         <div class="properties-grid">
-            <!-- Property 1 -->
+            <!-- Property 1: The Pearl -->
             <div class="property-card">
                 <div class="property-img">
-                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Modern Villa">
+                    <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80" alt="Luxury Apartment The Pearl">
                 </div>
                 <div class="property-info">
-                    <div class="property-price">$1,250,000</div>
-                    <div class="property-address">1234 Ocean View Dr, Malibu, CA</div>
-                    <div class="property-features">
-                        <span>🛏️ 4 Beds</span>
-                        <span>🛁 3 Baths</span>
-                        <span>📐 2,500 sqft</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Property 2 -->
-            <div class="property-card">
-                <div class="property-img">
-                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Luxury Home">
-                </div>
-                <div class="property-info">
-                    <div class="property-price">$890,000</div>
-                    <div class="property-address">567 Sunset Blvd, Beverly Hills, CA</div>
+                    <div class="property-price">QAR 3,500,000</div>
+                    <div class="property-address">Porto Arabia, The Pearl-Qatar, Doha</div>
                     <div class="property-features">
                         <span>🛏️ 3 Beds</span>
-                        <span>🛁 2 Baths</span>
-                        <span>📐 1,800 sqft</span>
+                        <span>🛁 3 Baths</span>
+                        <span>📐 2,100 sqft</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Property 3 -->
+            <!-- Property 2: Lusail -->
             <div class="property-card">
                 <div class="property-img">
-                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Family Home">
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Modern Villa Lusail">
                 </div>
                 <div class="property-info">
-                    <div class="property-price">$650,000</div>
-                    <div class="property-address">890 Pine St, San Francisco, CA</div>
+                    <div class="property-price">QAR 4,200,000</div>
+                    <div class="property-address">Lusail Marina, Lusail City, Doha</div>
                     <div class="property-features">
-                        <span>🛏️ 5 Beds</span>
+                        <span>🛏️ 4 Beds</span>
                         <span>🛁 4 Baths</span>
-                        <span>📐 3,200 sqft</span>
+                        <span>📐 3,500 sqft</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Property 3: West Bay -->
+            <div class="property-card">
+                <div class="property-img">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="West Bay Skyline Residence">
+                </div>
+                <div class="property-info">
+                    <div class="property-price">QAR 2,800,000</div>
+                    <div class="property-address">West Bay Lagoon, Doha, Qatar</div>
+                    <div class="property-features">
+                        <span>🛏️ 2 Beds</span>
+                        <span>🛁 2 Baths</span>
+                        <span>📐 1,600 sqft</span>
                     </div>
                 </div>
             </div>
@@ -173,7 +173,7 @@
     <!-- FOOTER -->
     <footer id="contact">
         <div class="logo">Life<span style="color:#c5a059">Space</span> Digital</div>
-        <p>&copy; 2026 Life Space Digital. Crafting premium digital experiences.</p>
+        <p>&copy; 2026 Life Space Digital. Crafting premium digital experiences in Qatar.</p>
     </footer>
 
 </body>
